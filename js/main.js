@@ -260,7 +260,7 @@
      --------------------------------------*/
   $("nav#dropdown").meanmenu({
     siteLogo:
-      "<div class='mobile-menu-nav-back'><a href='index.html'><img src='img/logo.png'/></a></div>"
+      "<div class='mobile-menu-nav-back'><a href='index.html'><img class='brandlogo' src='img/logo.png'/></a></div>"
   });
 
   /*-------------------------------------

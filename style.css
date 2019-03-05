@@ -12,7 +12,57 @@
   /* width: 100%; */
 }
 
+.slider-direction-layout1 .first-line{
+  padding-top: 130px!important;
+}
+@media only screen and (min-width: 1000px) {
+  .about-layout1{
+    margin-top: -60px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .slider-direction-layout1 .first-line{
+    padding-top: 80px!important;
+  } 
+  .countdown-con{
+    padding: 10px 0 10px 0important;
+  }
+}
 
+@media only screen and (max-width: 770px) {
+  .slider-direction-layout1 .first-line{
+    padding-top: 40px!important;
+  } 
+  .countdown-con{
+    padding: 0px!important;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .slider-direction-layout1 .first-line{
+    padding-top: 0px!important;
+  }
+  .footer-layout2{
+    text-align: center!important;s
+  }
+  .footer-bottom-area p{
+    padding: 0 15px 0 15px;
+  }
+  .countdown-section{
+    margin-bottom: 0;
+    margin-top: 50px!important;
+    
+  }
+  .countdown-section h2{
+    margin-bottom: 0;    
+  }
+}
+
+.countdown-con{
+  padding: 20px 0 20px 0;
+}
 /************************************************************************
 
 Template Name: Eventalk HTML5 Template 
