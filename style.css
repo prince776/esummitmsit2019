@@ -5,6 +5,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+.brandlogo{
+  height: 55px;
+  /* width: 100%; */
+}
+
+
 /************************************************************************
 
 Template Name: Eventalk HTML5 Template 
@@ -4633,9 +4641,11 @@ div ~ :last-child .progress-layout2:before {
 .schedule-layout2 {
   margin-bottom: 60px;
   position: relative;
+
   z-index: 1;
 }
 .schedule-layout2:before {
+  
   height: 95%;
   width: 98%;
   border-right: 1px solid #e5e5e5;
@@ -4658,15 +4668,17 @@ div ~ :last-child .progress-layout2:before {
 .schedule-layout2 .schedule-nav li {
   float: left;
   display: inline-block;
-  width: 20%;
+  width: 50%;
   border: 1px solid #e5e5e5;
   border-bottom: 0;
   text-align: center;
+  background-color: #1F1F1F;
 }
 .schedule-layout2 .schedule-nav li a {
-  padding: 22px 5px 20px;
+  padding: 18px 5px 16px;
   display: block;
   z-index: 2;
+  color: #fff;
   position: relative;
 }
 .schedule-layout2 .schedule-nav li a:after {
@@ -4674,10 +4686,7 @@ div ~ :last-child .progress-layout2:before {
   height: 100%;
   width: 100%;
   background: #ffffff;
-  background: -webkit-linear-gradient(#ffffff, #e5e5e5);
-  background: -o-linear-gradient(#ffffff, #e5e5e5);
-  background: -moz-linear-gradient(#ffffff, #e5e5e5);
-  background: linear-gradient(#ffffff, #e5e5e5);
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -4757,6 +4766,7 @@ div ~ :last-child .progress-layout2:before {
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   padding: 25px 40px 10px;
+  
 }
 @media only screen and (max-width: 767px) {
   .schedule-layout2 .schedule-content {
@@ -5722,6 +5732,7 @@ div ~ :last-child .progress-layout2:before {
   text-align: center;
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
 }
 .speaker-layout3 img {
   width: 100%;
@@ -5742,7 +5753,7 @@ div ~ :last-child .progress-layout2:before {
   height: 100%;
   width: 200%;
   z-index: 2;
-  background: rgba(76, 24, 100, 0.8);
+  background: rgba(31, 31, 31, .9);
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
   -ms-transform: rotate(8deg);
@@ -5762,6 +5773,7 @@ div ~ :last-child .progress-layout2:before {
   opacity: 0;
   visibility: hidden;
   bottom: 5%;
+  
   -webkit-transform: translateY(-5%);
   -moz-transform: translateY(-5%);
   -ms-transform: translateY(-5%);
@@ -5772,6 +5784,10 @@ div ~ :last-child .progress-layout2:before {
   -ms-transition: all 1s cubic-bezier(0, 0, 0.25, 1.38);
   -o-transition: all 1s cubic-bezier(0, 0, 0.25, 1.38);
   transition: all 1s cubic-bezier(0, 0, 0.25, 1.38);
+}
+.speaker-layout3 img{
+  height: 400px;
+  /* filter: brightness(.9); */
 }
 .speaker-layout3 .item-social ul li {
   display: inline-block;
@@ -5796,10 +5812,6 @@ div ~ :last-child .progress-layout2:before {
   left: 30px;
   z-index: 6;
   bottom: 5%;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -ms-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
 .speaker-layout3 .item-title .title {
@@ -5813,20 +5825,13 @@ div ~ :last-child .progress-layout2:before {
   transform: scale(1.1);
 }
 .speaker-layout3:hover:before {
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  transform: rotate(20deg);
-  top: 22%;
+  transform: rotate(10deg);
+  top: 40%;
   left: -90%;
 }
 .speaker-layout3:hover .item-title {
-  bottom: 30%;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -ms-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
+  bottom: 23%;
+  transition: all 0.5s ease-out;
 }
 .speaker-layout3:hover .item-social {
   left: 0;
