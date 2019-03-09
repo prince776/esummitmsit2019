@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 
 .brandlogo{
@@ -5803,7 +5806,7 @@ div ~ :last-child .progress-layout2:before {
   height: 100%;
   width: 200%;
   z-index: 2;
-  background: rgba(31, 31, 31, .9);
+  background: rgba(31, 31, 31, .6);
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
   -ms-transform: rotate(8deg);
@@ -5836,7 +5839,7 @@ div ~ :last-child .progress-layout2:before {
   transition: all 1s cubic-bezier(0, 0, 0.25, 1.38);
 }
 .speaker-layout3 img{
-  height: 400px;
+  height: 300px;
   /* filter: brightness(.9); */
 }
 .speaker-layout3 .item-social ul li {
